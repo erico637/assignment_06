@@ -53,7 +53,7 @@ class TestFunctionalPointPattern(unittest.TestCase):
         self.assertEqual(100, len(rand_points))
 
         # As above, update the module and function name.
-        permutations = utils.permutations(99, marks = self.marks))
+        permutations = utils.permutations(99, marks = self.marks)
         self.assertEqual(len(permutations), 99)
         self.assertNotEqual(permutations[0], permutations[1])
 
