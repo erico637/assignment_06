@@ -16,7 +16,7 @@ class TestPointClass(unittest.TestCase):
           self.assertEqual(_x, point0.getx())
           self.assertEqual(_y, point0.gety())
           
-     def test_check_coincident(self):
+      def test_check_coincident(self):
           _x = 5
           _y = 120
          point0 = point.Point(_x, _y, random.choice(self.marks))
