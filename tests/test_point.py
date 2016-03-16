@@ -2,7 +2,7 @@ import unittest
 import random
 from .. import point
   
-  class TestPointClass(unittest.TestCase):
+class TestPointClass(unittest.TestCase):
       def setUp(self):
          self.marks = ['Luke', 'Leia', 'Han', 'Chewbacca', 'ObiWan',
                  'Vader', 'Yoda', 'Lando', 'Ackbar', 'Palpatine',
