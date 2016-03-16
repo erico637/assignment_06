@@ -1,5 +1,5 @@
 import unittest
-  import random
+import random
   from .. import point
   
   class TestPointClass(unittest.TestCase):
