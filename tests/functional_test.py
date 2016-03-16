@@ -12,9 +12,9 @@ class TestFunctionalPointPattern(unittest.TestCase):
         random.seed(12345)
         i = 0
         self.points = []
-        self.marks = ['burrito', 'chimichanga', 'steak', 'burger', 'chillidog',
-                 'sweetpotatofries', 'beans', 'bacon', 'beijingbeef', 'friedeggs',
-                 'icecream', 'brownies', 'cookie', 'bananasplit', 'almondjoy']
+        self.marks = ['Luke', 'Leia', 'Han', 'Chewbacca', 'ObiWan',
+                 'Vader', 'Yoda', 'Lando', 'Ackbar', 'Palpatine',
+                 'Boba', 'Jabba', 'Piett', 'Wedge', 'Porkins']
         while i < 100:
             seed = (round(random.random(),2), round(random.random(),2))
             self.points.append(point.Point(seed[0], seed[1], random.choice(self.marks)))
