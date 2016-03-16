@@ -1,4 +1,4 @@
-created feb 29th, 2016
+"""
 By Eric Friesenhahn
 
 
