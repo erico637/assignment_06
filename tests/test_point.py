@@ -1,6 +1,6 @@
 import unittest
 import random
-  from .. import point
+from .. import point
   
   class TestPointClass(unittest.TestCase):
       def setUp(self):
